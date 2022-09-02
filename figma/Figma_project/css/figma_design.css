@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+.first_part {}
+
+i {
+    font-size: medium;
+    font-weight: lighter;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+
+    box-shadow: 0 0 10px rgb(85, 84, 84);
+    margin: 0 0 40px 0;
+}
+
+nav h1 {
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 450px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px 0 20px;
+    cursor: pointer;
+}
+
+.linear {
+    background: linear-gradient(90deg,
+            rgb(1, 30, 244) 1%,
+            rgb(241, 117, 235) 100%);
+    color: white;
+    padding: 5px;
+}
+
+
+
+.second_part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+center img {
+    width: 1200px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.second_part img {
+    width: 588px;
+    height: 250px;
+    margin: 10px;
+}
+
+h2 {
+    margin-top: 100px;
+}
+
+.third_part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+table {
+    border-collapse: collapse;
+    border-left: 0.5px solid rgb(210, 207, 207);
+    border-right: 0.5px solid rgb(210, 207, 207);
+
+}
+
+
+
+.one {
+    width: 550px;
+    height: 60px;
+    text-align: center;
+}
+
+.two {
+    width: 400px;
+
+}
+
+.three {
+    width: 250px;
+
+}
+
+tr:nth-child(even) {
+    background: rgb(243, 235, 235)
+}
+
+
+
+.green_line {
+    background-color: rgb(61, 204, 77);
+    color: white;
+
+}
+
+footer {
+    padding: 10px;
+    padding-left: 50px;
+    background-color: rgb(1, 70, 6);
+    width: auto;
+    margin-top: 100px;
+    color: white;
+}

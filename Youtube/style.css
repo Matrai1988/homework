@@ -1,0 +1,426 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: rgb(30, 30, 30);
+    font-family: "Quicksand", sans-serif;
+}
+
+.div-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+
+/*     left     */
+.left-side {
+    display: flex;
+    margin: 17px 0 0 25px;
+}
+
+#spanok {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+span {
+    width: 20px;
+    background: white;
+    height: 1px;
+    margin: 2.5px;
+}
+
+.youtube-logo {
+    background: red;
+    width: 30px;
+    height: 20px;
+    border-radius: 6px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.triangle {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    left: 10px;
+    top: -5px;
+
+}
+
+h6 {
+    color: white;
+}
+
+
+h3 {
+    color: white;
+    margin-left: 35px;
+    margin-top: -2px;
+    margin-left: 25px;
+
+}
+
+sup {
+    font-size: 10px;
+    margin: -10px 0 0 5px;
+    color: rgb(132, 127, 127);
+}
+
+/*    center    */
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -140px;
+    margin-top: 10px;
+
+}
+
+input {
+    background: rgb(18, 18, 18);
+    border: 0.9px solid rgb(57, 56, 56);
+    width: 530px;
+    height: 40px;
+    font-size: 17.5px;
+    font-weight: lighter;
+    outline: none;
+    padding-inline: 5px;
+    color: white;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    background: rgb(63, 63, 63);
+    height: 40px;
+    width: 60px;
+    margin-left: -5px;
+
+
+}
+
+.keyboard {
+    margin-left: -35px;
+    margin-bottom: -14px;
+    width: 30px;
+    height: 30px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.search-png {
+    margin-top: -10px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.micro {
+    width: 40px;
+    height: 45px;
+    background: rgb(18, 18, 18);
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+img {
+    width: 20px;
+    height: 25px;
+    filter: invert(100%);
+    margin-top: 10px;
+
+}
+
+
+
+
+/*    right    */
+
+.right-side {
+    display: flex;
+    margin-top: 10px;
+    cursor: pointer;
+
+
+}
+
+.baba {
+    margin-right: 35px;
+
+}
+
+/*        leftside collum under the hambi         */
+/*        firstpart in this section        */
+
+.reallymainsection {
+    display: flex;
+    flex-direction: row;
+}
+
+.upper_leftside_menupart {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    border-bottom: 0.1px solid rgb(94, 93, 93);
+    width: 230px;
+    margin-top: 15px;
+
+}
+
+.upper_leftside_menupart h4 {
+    margin-left: -10px;
+    cursor: pointer;
+    color: white;
+}
+
+.upper_leftside_menupart .baba {
+    cursor: pointer;
+}
+
+
+
+.opensite {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background: rgb(59, 58, 58);
+    overflow: visible;
+    padding-left: 30px;
+    height: 50px;
+
+}
+
+.discover {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 0 0 10px 30px;
+}
+
+.shorts {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 0 0 10px 30px;
+}
+
+.submit {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 0 0 20px 30px;
+}
+
+
+/*        secondpart in this section        */
+
+.secondpart {
+    width: 230px;
+    border-bottom: 0.1px solid rgb(94, 93, 93);
+}
+
+.secondpart .baba {
+    cursor: pointer;
+}
+
+.secondpart h4 {
+    margin-left: -10px;
+    cursor: pointer;
+    color: white;
+}
+
+.library {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 10px 20px 10px 30px;
+
+}
+
+.previous {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 10px 0 10px 30px;
+}
+
+.videos {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 10px 0 10px 30px;
+}
+
+.must_see {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 10px 0 10px 30px;
+}
+
+.liked_vids {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 10px 0 10px 30px;
+}
+
+.more_stuff {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 10px 0 20px 30px;
+}
+
+
+/*        thirdpart in this section        */
+
+.thirdpart h3 {
+    margin-top: 10px;
+    font-weight: lighter;
+    color: rgb(143, 139, 139);
+}
+
+.thirdpart h4 {
+    color: white;
+    cursor: pointer;
+}
+
+.thirdpart .baba {
+    cursor: pointer;
+}
+
+.radio {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 10px 0 10px 30px;
+
+}
+
+.trap {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 10px 0 10px 30px;
+
+}
+
+.klub {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 10px 0 10px 30px;
+
+}
+
+.bass {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 10px 0 10px 30px;
+
+}
+
+.ultra {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 10px 0 20px 30px;
+
+}
+
+
+/*        centerline with the options (thirdpart)         */
+
+.centerline {
+    display: flex;
+    justify-content: space-between;
+
+    background: rgb(30, 30, 30);
+    height: 60px;
+    margin-top: 10px;
+    border-bottom: 0.1px solid rgb(95, 94, 94);
+    border-top: 0.1px solid rgb(97, 96, 96);
+}
+
+.centerline div {
+    margin-top: 13px;
+    color: white;
+    cursor: pointer;
+
+    height: 30px;
+    background: rgb(59, 58, 58);
+    border-radius: 30px;
+    border-bottom: 0.1px solid rgb(94, 93, 93);
+}
+
+.centerline div h4 {
+    width: 100px;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.centerline div:hover {
+    background: rgb(65, 65, 65);
+}
+
+
+.main_center_vids div h6 {
+    cursor: pointer;
+}
+
+.main_center_vids div h4 {
+    cursor: pointer;
+}
+
+
+.center_main_vids_finally {
+    margin-left: 20px;
+    flex-direction: column;
+}
+
+.main_center_vids {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgb(17, 16, 16);
+    color: white;
+    height: 700px;
+    width: 1200px;
+
+}
+
+.main_center_vids div {
+    width: 270px;
+    height: 200px;
+    margin: 10px;
+    margin-top: 25px;
+}
+
+.card .card_card {
+    width: 270px;
+    height: 200px;
+    filter: none;
+    cursor: pointer;
+}
+
+#first_ultra {
+    background: white;
+    color: black;
+}
